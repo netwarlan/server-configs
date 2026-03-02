@@ -6,9 +6,6 @@
           "nameID" "#GameUI_GameMode_Casual"
           "descID" "#GameUI_GameMode_Casual_Desc"
           "maxplayers" "24"
-          "exec" {
-            "exec" "gamemode_casual.cfg"
-          }
           "mapgroupsMP" {
             "nw_casual" ""
           }
@@ -17,9 +14,6 @@
           "nameID" "#GameUI_GameMode_Competitive"
           "descID" "#GameUI_GameMode_Competitive_Desc"
           "maxplayers" "24"
-          "exec" {
-            "exec" "gamemode_competitive.cfg"
-          }
           "mapgroupsMP" {
             "nw_competitive" ""
           }
@@ -32,9 +26,6 @@
           "nameID" "#GameUI_GameMode_ArmsRace"
           "descID" "#GameUI_GameMode_ArmsRace_Desc"
           "maxplayers" "24"
-          "exec" {
-            "exec" "gamemode_armsrace.cfg"
-          }
           "mapgroupsMP" {
             "nw_armsrace" ""
           }

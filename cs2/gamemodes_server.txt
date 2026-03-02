@@ -1,70 +1,89 @@
-"Gamemodes_Server.txt" {
-  "gameTypes" {
-    "classic" {
-      "gameModes" {
-        "casual" {
-          "nameID" "#GameUI_GameMode_Casual"
-          "descID" "#GameUI_GameMode_Casual_Desc"
-          "maxplayers" "24"
-          "mapgroupsMP" {
-            "nw_casual" ""
-          }
-        }
-        "competitive" {
-          "nameID" "#GameUI_GameMode_Competitive"
-          "descID" "#GameUI_GameMode_Competitive_Desc"
-          "maxplayers" "24"
-          "mapgroupsMP" {
-            "nw_competitive" ""
-          }
-        }
-      }
-    }
-    "gungame" {
-      "gameModes" {
-        "armsrace" {
-          "nameID" "#GameUI_GameMode_ArmsRace"
-          "descID" "#GameUI_GameMode_ArmsRace_Desc"
-          "maxplayers" "24"
-          "mapgroupsMP" {
-            "nw_armsrace" ""
-          }
-        }
-      }
-    }
-  }
-  "mapgroups" {
-    "nw_casual" {
-      "name" "nw_casual"
-      "maps" {
-        "de_ancient" ""
-        "de_anubis" ""
-        "de_dust2" ""
-        "de_inferno" ""
-        "de_mirage" ""
-        "de_nuke" ""
-        "de_overpass" ""
-        "de_train" ""
-      }
-    }
-    "nw_competitive" {
-      "name" "nw_competitive"
-      "maps" {
-        "de_ancient" ""
-        "de_anubis" ""
-        "de_inferno" ""
-        "de_mirage" ""
-        "de_nuke" ""
-        "de_overpass" ""
-        "de_train" ""
-      }
-    }
-    "nw_armsrace" {
-      "name" "nw_armsrace"
-      "maps" {
-        "ar_baggage" ""
-        "ar_shoots" ""
-      }
-    }
-  }
+"GameModes_Server.txt"
+{
+	"gameTypes"
+	{
+		"classic"
+		{
+			"gameModes"
+			{
+				"casual"
+				{
+					"nameID"			"#GameUI_GameMode_Casual"
+					"descID"			"#GameUI_GameMode_Casual_Desc"
+					"maxplayers"		"24"
+					"mapgroupsMP"
+					{
+						"nw_casual"		""
+					}
+				}
+				"competitive"
+				{
+					"nameID"			"#GameUI_GameMode_Competitive"
+					"descID"			"#GameUI_GameMode_Competitive_Desc"
+					"maxplayers"		"24"
+					"mapgroupsMP"
+					{
+						"nw_competitive"	""
+					}
+				}
+			}
+		}
+		"gungame"
+		{
+			"gameModes"
+			{
+				"armsrace"
+				{
+					"nameID"			"#GameUI_GameMode_ArmsRace"
+					"descID"			"#GameUI_GameMode_ArmsRace_Desc"
+					"maxplayers"		"24"
+					"mapgroupsMP"
+					{
+						"nw_armsrace"	""
+					}
+				}
+			}
+		}
+	}
+	"mapgroups"
+	{
+		"nw_casual"
+		{
+			"name"			"nw_casual"
+			"maps"
+			{
+				"de_ancient"		""
+				"de_anubis"		""
+				"de_dust2"		""
+				"de_inferno"		""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_overpass"	""
+				"de_train"		""
+			}
+		}
+		"nw_competitive"
+		{
+			"name"			"nw_competitive"
+			"maps"
+			{
+				"de_ancient"		""
+				"de_anubis"		""
+				"de_inferno"		""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_overpass"	""
+				"de_train"		""
+			}
+		}
+		"nw_armsrace"
+		{
+			"name"			"nw_armsrace"
+			"maps"
+			{
+				"ar_baggage"		""
+				"ar_shoots"		""
+			}
+		}
+	}
 }

@@ -7,10 +7,15 @@
 	{
 		"classic"
 		{
+			"value"				"0"
+			"nameID"			"#SFUI_GameTypeClassic"
 			"gameModes"
 			{
 				"casual"
 				{
+					"value"				"0"
+					"nameID"			"#SFUI_GameModeCasual"
+					"descID"			"#SFUI_GameModeCasualDesc"
 					"maxplayers"		"24"
 					"exec"
 					{
@@ -23,6 +28,9 @@
 				}
 				"competitive"
 				{
+					"value"				"1"
+					"nameID"			"#SFUI_GameModeCompetitive"
+					"descID"			"#SFUI_GameModeCompetitiveDesc"
 					"maxplayers"		"24"
 					"exec"
 					{
@@ -37,10 +45,15 @@
 		}
 		"gungame"
 		{
+			"value"				"1"
+			"nameID"			"#SFUI_GameTypeGungame"
 			"gameModes"
 			{
-				"armsrace"
+				"gungameprogressive"
 				{
+					"value"				"0"
+					"nameID"			"#SFUI_GameModeGGProgressive"
+					"descID"			"#SFUI_GameModeGGProgressiveDesc"
 					"maxplayers"		"24"
 					"exec"
 					{

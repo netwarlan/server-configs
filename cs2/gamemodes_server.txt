@@ -48,7 +48,7 @@
 					}
 					"mapgroupsMP"
 					{
-						"nw_armsrace"	""
+						"mg_armsrace"	""
 					}
 				}
 			}
@@ -85,9 +85,9 @@
 				"de_train"		""
 			}
 		}
-		"nw_armsrace"
+		"mg_armsrace"
 		{
-			"name"			"nw_armsrace"
+			"name"			"mg_armsrace"
 			"maps"
 			{
 				"ar_baggage"		""

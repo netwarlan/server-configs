@@ -1,61 +1,98 @@
-"Gamemodes_Server.txt" {
-  "gameTypes" {
-    "classic" {
-      "gameModes" {
-        "casual" {
-          "mapgroupsMP" {
-            "nw_casual" ""
-          }
-        }
-        "competitive" {
-          "mapgroupsMP" {
-            "nw_competitive" ""
-          }
-        }
-      }
-    }
-    "gungame" {
-      "gameModes" {
-        "armsrace" {
-          "mapgroupsMP" {
-            "nw_armsrace" ""
-          }
-        }
-      }
-    }
-  }
-  "mapgroups" {
-    "nw_casual" {
-      "name" "nw_casual"
-      "maps" {
-        "de_ancient" ""
-        "de_anubis" ""
-        "de_dust2" ""
-        "de_inferno" ""
-        "de_mirage" ""
-        "de_nuke" ""
-        "de_overpass" ""
-        "de_train" ""
-      }
-    }
-    "nw_competitive" {
-      "name" "nw_competitive"
-      "maps" {
-        "de_ancient" ""
-        "de_anubis" ""
-        "de_inferno" ""
-        "de_mirage" ""
-        "de_nuke" ""
-        "de_overpass" ""
-        "de_train" ""
-      }
-    }
-    "nw_armsrace" {
-      "name" "nw_armsrace"
-      "maps" {
-        "ar_baggage" ""
-        "ar_shoots" ""
-      }
-    }
-  }
+// Values here override the default gamemodes.txt
+// https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive/Game_Modes
+
+"GameModes_Server.txt"
+{
+	"gameTypes"
+	{
+		"classic"
+		{
+			"gameModes"
+			{
+				"casual"
+				{
+					"maxplayers"		"24"
+					"exec"
+					{
+						"exec" "gamemode_casual_server.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"nw_casual"		""
+					}
+				}
+				"competitive"
+				{
+					"maxplayers"		"24"
+					"exec"
+					{
+						"exec" "gamemode_competitive_server.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"nw_competitive"	""
+					}
+				}
+			}
+		}
+		"gungame"
+		{
+			"gameModes"
+			{
+				"armsrace"
+				{
+					"maxplayers"		"24"
+					"exec"
+					{
+						"exec" "gamemode_armsrace_server.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"nw_armsrace"		""
+					}
+				}
+			}
+		}
+	}
+	"mapgroups"
+	{
+		"nw_casual"
+		{
+			"name"	"nw_casual"
+			"maps"
+			{
+				"de_ancient"	""
+				"de_anubis"		""
+				"de_dust2"		""
+				"de_inferno"	""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_overpass"	""
+				"de_train"		""
+			}
+		}
+		"nw_competitive"
+		{
+			"name"	"nw_competitive"
+			"maps"
+			{
+				"de_ancient"	""
+				"de_anubis"		""
+				"de_inferno"	""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_overpass"	""
+				"de_train"		""
+			}
+		}
+		"nw_armsrace"
+		{
+			"name"	"nw_armsrace"
+			"maps"
+			{
+				"ar_baggage"	""
+				"ar_shoots"		""
+			}
+		}
+	}
 }

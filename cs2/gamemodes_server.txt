@@ -41,6 +41,36 @@
 						"nw_competitive"	""
 					}
 				}
+				"scrimcomp2v2"
+				{
+					"value"				"2"
+					"nameID"			"#SFUI_GameModeCompetitive2v2"
+					"descID"			"#SFUI_GameModeCompetitive2v2Desc"
+					"maxplayers"		"24"
+					"exec"
+					{
+						"exec" "gamemode_competitive2v2_server.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"nw_competitive"	""
+					}
+				}
+				"deathmatch"
+				{
+					"value"				"3"
+					"nameID"			"#SFUI_GameModeDeathmatch"
+					"descID"			"#SFUI_GameModeDeathmatchDesc"
+					"maxplayers"		"24"
+					"exec"
+					{
+						"exec" "gamemode_deathmatch_server.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"nw_casual"		""
+					}
+				}
 			}
 		}
 		"gungame"
@@ -58,6 +88,21 @@
 					"exec"
 					{
 						"exec" "gamemode_armsrace_server.cfg"
+					}
+					"mapgroupsMP"
+					{
+						"nw_armsrace"		""
+					}
+				}
+				"gungametrbomb"
+				{
+					"value"				"1"
+					"nameID"			"#SFUI_GameModeGGBomb"
+					"descID"			"#SFUI_GameModeGGBombDesc"
+					"maxplayers"		"24"
+					"exec"
+					{
+						"exec" "gamemode_demolition_server.cfg"
 					}
 					"mapgroupsMP"
 					{

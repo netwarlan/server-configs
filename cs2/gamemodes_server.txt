@@ -42,10 +42,6 @@
 			{
 				"gungameprogressive"
 				{
-					"exec"
-					{
-						"exec"			"gamemode_armsrace_server.cfg"
-					}
 					"mapgroupsMP"
 					{
 						"mg_armsrace"	""

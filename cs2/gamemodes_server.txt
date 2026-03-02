@@ -1,159 +1,61 @@
-// Values here override the default gamemodes.txt
-// https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive/Game_Modes
-
-"GameModes_Server.txt"
-{
-	"gameTypes"
-	{
-		"classic"
-		{
-			"value"				"0"
-			"nameID"			"#SFUI_GameTypeClassic"
-			"gameModes"
-			{
-				"casual"
-				{
-					"value"				"0"
-					"nameID"			"#SFUI_GameModeCasual"
-					"descID"			"#SFUI_GameModeCasualDesc"
-					"maxplayers"		"24"
-					"exec"
-					{
-						"exec" "gamemode_casual_server.cfg"
-					}
-					"mapgroupsMP"
-					{
-						"nw_casual"		""
-					}
-				}
-				"competitive"
-				{
-					"value"				"1"
-					"nameID"			"#SFUI_GameModeCompetitive"
-					"descID"			"#SFUI_GameModeCompetitiveDesc"
-					"maxplayers"		"24"
-					"exec"
-					{
-						"exec" "gamemode_competitive_server.cfg"
-					}
-					"mapgroupsMP"
-					{
-						"nw_competitive"	""
-					}
-				}
-				"scrimcomp2v2"
-				{
-					"value"				"2"
-					"nameID"			"#SFUI_GameModeCompetitive2v2"
-					"descID"			"#SFUI_GameModeCompetitive2v2Desc"
-					"maxplayers"		"24"
-					"exec"
-					{
-						"exec" "gamemode_competitive2v2_server.cfg"
-					}
-					"mapgroupsMP"
-					{
-						"nw_competitive"	""
-					}
-				}
-				"deathmatch"
-				{
-					"value"				"3"
-					"nameID"			"#SFUI_GameModeDeathmatch"
-					"descID"			"#SFUI_GameModeDeathmatchDesc"
-					"maxplayers"		"24"
-					"exec"
-					{
-						"exec" "gamemode_deathmatch_server.cfg"
-					}
-					"mapgroupsMP"
-					{
-						"nw_casual"		""
-					}
-				}
-			}
-		}
-		"gungame"
-		{
-			"value"				"1"
-			"nameID"			"#SFUI_GameTypeGungame"
-			"gameModes"
-			{
-				"gungameprogressive"
-				{
-					"value"				"0"
-					"nameID"			"#SFUI_GameModeGGProgressive"
-					"descID"			"#SFUI_GameModeGGProgressiveDesc"
-					"maxplayers"		"24"
-					"exec"
-					{
-						"exec" "gamemode_armsrace_server.cfg"
-					}
-					"mapgroupsMP"
-					{
-						"nw_armsrace"		""
-					}
-				}
-				"gungametrbomb"
-				{
-					"value"				"1"
-					"nameID"			"#SFUI_GameModeGGBomb"
-					"descID"			"#SFUI_GameModeGGBombDesc"
-					"maxplayers"		"24"
-					"exec"
-					{
-						"exec" "gamemode_demolition_server.cfg"
-					}
-					"mapgroupsMP"
-					{
-						"nw_armsrace"		""
-					}
-				}
-			}
-		}
-	}
-	"mapgroups"
-	{
-		"nw_casual"
-		{
-			"name"			"nw_casual"
-			"displayname"	"NETWAR Casual"
-			"maps"
-			{
-				"de_ancient"	""
-				"de_anubis"		""
-				"de_dust2"		""
-				"de_inferno"	""
-				"de_mirage"		""
-				"de_nuke"		""
-				"de_overpass"	""
-				"de_train"		""
-			}
-		}
-		"nw_competitive"
-		{
-			"name"			"nw_competitive"
-			"displayname"	"NETWAR Competitive"
-			"maps"
-			{
-				"de_ancient"	""
-				"de_anubis"		""
-				"de_inferno"	""
-				"de_mirage"		""
-				"de_nuke"		""
-				"de_overpass"	""
-				"de_train"		""
-			}
-		}
-		"nw_armsrace"
-		{
-			"name"			"nw_armsrace"
-			"displayname"	"NETWAR Arms Race"
-			"maps"
-			{
-				"ar_baggage"	""
-				"ar_shoots"		""
-			}
-		}
-	}
+"Gamemodes_Server.txt" {
+  "gameTypes" {
+    "classic" {
+      "gameModes" {
+        "casual" {
+          "mapgroupsMP" {
+            "nw_casual" ""
+          }
+        }
+        "competitive" {
+          "mapgroupsMP" {
+            "nw_competitive" ""
+          }
+        }
+      }
+    }
+    "gungame" {
+      "gameModes" {
+        "armsrace" {
+          "mapgroupsMP" {
+            "nw_armsrace" ""
+          }
+        }
+      }
+    }
+  }
+  "mapgroups" {
+    "nw_casual" {
+      "name" "nw_casual"
+      "maps" {
+        "de_ancient" ""
+        "de_anubis" ""
+        "de_dust2" ""
+        "de_inferno" ""
+        "de_mirage" ""
+        "de_nuke" ""
+        "de_overpass" ""
+        "de_train" ""
+      }
+    }
+    "nw_competitive" {
+      "name" "nw_competitive"
+      "maps" {
+        "de_ancient" ""
+        "de_anubis" ""
+        "de_inferno" ""
+        "de_mirage" ""
+        "de_nuke" ""
+        "de_overpass" ""
+        "de_train" ""
+      }
+    }
+    "nw_armsrace" {
+      "name" "nw_armsrace"
+      "maps" {
+        "ar_baggage" ""
+        "ar_shoots" ""
+      }
+    }
+  }
 }

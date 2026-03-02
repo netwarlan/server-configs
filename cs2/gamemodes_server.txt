@@ -149,6 +149,8 @@
 			{
 				"ar_baggage"		""
 				"ar_shoots"		""
+				"ar_shoots_night"	""
+				"ar_pool_day"		""
 			}
 		}
 	}

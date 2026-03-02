@@ -71,7 +71,8 @@
 	{
 		"nw_casual"
 		{
-			"name"	"nw_casual"
+			"name"			"nw_casual"
+			"displayname"	"NETWAR Casual"
 			"maps"
 			{
 				"de_ancient"	""
@@ -86,7 +87,8 @@
 		}
 		"nw_competitive"
 		{
-			"name"	"nw_competitive"
+			"name"			"nw_competitive"
+			"displayname"	"NETWAR Competitive"
 			"maps"
 			{
 				"de_ancient"	""
@@ -100,7 +102,8 @@
 		}
 		"nw_armsrace"
 		{
-			"name"	"nw_armsrace"
+			"name"			"nw_armsrace"
+			"displayname"	"NETWAR Arms Race"
 			"maps"
 			{
 				"ar_baggage"	""

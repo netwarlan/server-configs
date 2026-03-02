@@ -40,7 +40,7 @@
 		{
 			"gameModes"
 			{
-				"armsrace"
+				"gungameprogressive"
 				{
 					"nameID"			"#GameUI_GameMode_ArmsRace"
 					"descID"			"#GameUI_GameMode_ArmsRace_Desc"

@@ -42,9 +42,6 @@
 			{
 				"gungameprogressive"
 				{
-					"nameID"			"#GameUI_GameMode_ArmsRace"
-					"descID"			"#GameUI_GameMode_ArmsRace_Desc"
-					"maxplayers"		"24"
 					"exec"
 					{
 						"exec"			"gamemode_armsrace_server.cfg"
@@ -52,60 +49,6 @@
 					"mapgroupsMP"
 					{
 						"nw_armsrace"	""
-					}
-					"weaponprogression_ct"
-					{
-						"mp9"			{ "kills"	"2" }
-						"mac10"			{ "kills"	"2" }
-						"mp7"			{ "kills"	"2" }
-						"ump45"			{ "kills"	"2" }
-						"p90"			{ "kills"	"2" }
-						"nova"			{ "kills"	"2" }
-						"mag7"			{ "kills"	"2" }
-						"xm1014"		{ "kills"	"2" }
-						"galilar"		{ "kills"	"2" }
-						"famas"			{ "kills"	"2" }
-						"ak47"			{ "kills"	"2" }
-						"m4a1"			{ "kills"	"2" }
-						"aug"			{ "kills"	"2" }
-						"sg556"			{ "kills"	"2" }
-						"awp"			{ "kills"	"2" }
-						"negev"			{ "kills"	"2" }
-						"glock"			{ "kills"	"2" }
-						"hkp2000"		{ "kills"	"2" }
-						"tec9"			{ "kills"	"2" }
-						"p250"			{ "kills"	"2" }
-						"deagle"		{ "kills"	"2" }
-						"fiveseven"		{ "kills"	"2" }
-						"elite"			{ "kills"	"2" }
-						"knifegg"		{ "kills"	"1" }
-					}
-					"weaponprogression_t"
-					{
-						"mp9"			{ "kills"	"2" }
-						"mac10"			{ "kills"	"2" }
-						"mp7"			{ "kills"	"2" }
-						"ump45"			{ "kills"	"2" }
-						"p90"			{ "kills"	"2" }
-						"nova"			{ "kills"	"2" }
-						"mag7"			{ "kills"	"2" }
-						"xm1014"		{ "kills"	"2" }
-						"galilar"		{ "kills"	"2" }
-						"famas"			{ "kills"	"2" }
-						"ak47"			{ "kills"	"2" }
-						"m4a1"			{ "kills"	"2" }
-						"aug"			{ "kills"	"2" }
-						"sg556"			{ "kills"	"2" }
-						"awp"			{ "kills"	"2" }
-						"negev"			{ "kills"	"2" }
-						"glock"			{ "kills"	"2" }
-						"hkp2000"		{ "kills"	"2" }
-						"tec9"			{ "kills"	"2" }
-						"p250"			{ "kills"	"2" }
-						"deagle"		{ "kills"	"2" }
-						"fiveseven"		{ "kills"	"2" }
-						"elite"			{ "kills"	"2" }
-						"knifegg"		{ "kills"	"1" }
 					}
 				}
 			}
